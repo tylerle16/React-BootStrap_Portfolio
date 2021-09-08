@@ -9,6 +9,7 @@
 
 
 
+
 --primary-dark: rgba(255,255,255, 0);
 }
 .App {
@@ -203,3 +204,5 @@ z-index: 1;
     width: 10rem;
   }
 }
+
+
