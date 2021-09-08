@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 // import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 import js from "../js.png"
@@ -29,7 +29,7 @@ const Services = () => {
                     {/* - */}
                     <div className="col-md-3 col-sm-6">
                         <div className="box">
-                            <div className="circle"></div><img src={js}></img>
+                            <div className="circle"></div><img src={js} alt=""></img>
 
                             <h3> JavaScript </h3>
                             <p>Your potential clients well see your services or product on Facebook</p>

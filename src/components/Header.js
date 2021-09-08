@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from "react-typed"
-import Particles from 'react-particles-js'
+// import Particles from 'react-particles-js'
 const Header = () => {
     return (
     <div className="Header-wraper">
@@ -15,7 +15,7 @@ const Header = () => {
             loop
             
             />
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            <a href="/" className="btn-main-offer">Contact Me</a>
         </div>
 
     </div>
