@@ -18,9 +18,9 @@ const portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={ind} alt="Indubitably..." />
-                <p>Unemployed? Want a job? Need help tp find one?
+                <p>Unemployed? Want a job? Need help to find one?
                     "Indubitably!"</p>
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://indubitably.app/jobs/search?search=Software+Engineer&location=")}>indubiyably</a>
+                <b>GitHub:</b> <a href className="hyper-link" onClick={() => window.open("https://indubitably.app/jobs/search?search=Software+Engineer&location=")}>https://indubitably.app/jobs/search?search=Software+Engineer&location=</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -35,13 +35,13 @@ const portfolio = () => {
         fadeInSpeed: 500
     }
 
-    // City Guide App
+    // SHOPIFY STORE
     const openPopupboxcon = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={con} alt="City Guide App Project..." />
-                <p>A Ticketmaster Clone to demonstrate ability to incorporate API into a webapp</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://ticketscape.netlify.app/", "_blank")}>https://ticketscape.netlify.app/</a>
+                <img className="portfolio-image-popupbox" src={con} alt="SHOPIFY STORE..." />
+                <p>A custom Shopify store I built fo ra local store in Chattanooga, TN! </p>
+                <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://kingssmokeandvape.myshopify.com/")}>https://kingssmokeandvape.myshopify.com/</a>
 
             </>
         )
@@ -51,7 +51,7 @@ const portfolio = () => {
     const popupboxConfigcon = {
         titleBar: {
             enable: true,
-            text: "A Ticketmaster Clone."
+            text: "A Shopify store I built for a customer."
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -63,7 +63,8 @@ const portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={por} alt="Portfolio Project..." />
                 <p>My Personal portfolio built with React, BootStrap, and Material UI project</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://tylerthedev.netlify.app/", "_blank")}>https://tylerthedev.netlify.app/</a>
+                <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://tylerthe.dev/")}>https://tylerthe.dev/</a>
+                {/* <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://tylerthe.dev/", "_blank")}>https://tylerthe.dev/</a> */}
 
             </>
         )
@@ -73,7 +74,7 @@ const portfolio = () => {
     const popupboxConfigPortfolio = {
         titleBar: {
             enable: true,
-            text: "Poftfolio React and Material UI project."
+            text: "Portfolio React and Material UI project."
         },
         fadeIn: true,
         fadeInSpeed: 500

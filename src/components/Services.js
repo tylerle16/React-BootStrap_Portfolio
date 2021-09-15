@@ -63,7 +63,7 @@ Provide the requirements and get quality work in due time. </p>
                             <h3>Shopify</h3>
                             <p>  I will create a totally new custom website for you. I will send you some questions to collect your requirements like your preferred color scheme, layout, features etc. 
 
-And i will create a new website for you accordingly. </p>.
+And i will create a new website for you accordingly. </p>
                         </div>
                     </div>
                 </div>
