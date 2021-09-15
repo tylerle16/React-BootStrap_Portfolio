@@ -2,11 +2,13 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from './components/Navbar';
 // imported react 
-import React from "react"
+// import React from "react"
 import Header from './components/Header';
 import Particles from 'react-particles-js'
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
     <Header/>
     <AboutMe/>
     <Services/>
+    <Portfolio/>
     </div> );
 }
 
