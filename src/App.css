@@ -248,11 +248,11 @@ z-index: 1;
 
 .services .box{
   height: 20rem;
-  border-bottom: 1.3125 solid var(--primary-red1);
+  border-bottom: 1.3125 solid var(--primary-dark-grey);
   padding: 0.625rem;
   margin-bottom: 7.875rem;
   background: var(--primary-white);
-  overflow:overlay;
+  /* overflow:overlay; */
 
 
 }

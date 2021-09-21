@@ -18,12 +18,19 @@ const portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={ind} alt="Indubitably..." />
-                <p>Unemployed? Want a job? Need help to find one?
-                    "Indubitably!"</p>
-                <b>GitHub:</b> <a href className="hyper-link" onClick={() => window.open("https://indubitably.app/jobs/search?search=Software+Engineer&location=")}>https://indubitably.app/jobs/search?search=Software+Engineer&location=</a>
+                <p>Any user can search for jobs. 'Register/Sign In' page allows the user to make an account by entering their information into the required fields. After the user submits their information, The password is hashed using bcrypt and the user account is saved in a PostgreSQL relational database. Upon making an account and signing in, the user gains the ability to save jobs to their account as favorites. </p>
+                <b>View:</b> <a href className="hyper-link" onClick={() => window.open("https://indubitably.app/jobs/search?search=Software+Engineer&location=")}>https://indubitably.app/jobs/search?search=Software+Engineer&location=</a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Languages & Tech:JavaScript ,Nodejs,PostgreSQL,bcrypt,HTML,CSS,Sequelize,Beekeeper,Npm,Nodemon,Express,and VSCode "
+                },
+            },
+        });
     }
 
     const popupboxind = {
@@ -40,12 +47,20 @@ const portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={con} alt="SHOPIFY STORE..." />
-                <p>A custom Shopify store I built fo ra local store in Chattanooga, TN! </p>
-                <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://kingssmokeandvape.myshopify.com/")}>https://kingssmokeandvape.myshopify.com/</a>
+                <p>A custom Shopify store I built for a local store in Chattanooga, TN! </p>
+                <b>View:</b> <a href className="hyper-link" onClick={() => window.open("https://kingssmokeandvape.myshopify.com/")}>https://kingssmokeandvape.myshopify.com/</a>
 
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "A custom Shopify store I built for a local store in Chattanooga, TN!",
+                },
+            },
+        });
     }
 
     const popupboxConfigcon = {
@@ -63,12 +78,20 @@ const portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={por} alt="Portfolio Project..." />
                 <p>My Personal portfolio built with React, BootStrap, and Material UI project</p>
-                <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://tylerthe.dev/")}>https://tylerthe.dev/</a>
+                <b>View:</b> <a href className="hyper-link" onClick={() => window.open("https://tylerthe.dev/")}>https://tylerthe.dev/</a>
                 {/* <b>Demo:</b> <a href className="hyper-link" onClick={() => window.open("https://tylerthe.dev/", "_blank")}>https://tylerthe.dev/</a> */}
 
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Portfolio React and Material UI project.",
+                },
+            },
+        });
     }
 
     const popupboxConfigPortfolio = {
@@ -101,11 +124,11 @@ const portfolio = () => {
                     </div>
                     {/* - */}
                     <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-                        <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+                        <img className="portfolio-image" src={por} alt="Portfolio React and Material UI Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
-                
+
                 </div>
             </div>
             <PopupboxContainer {...popupboxind} />
