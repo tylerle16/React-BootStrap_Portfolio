@@ -29,9 +29,9 @@ const Navbar = () => {
                     </li> <li className="nav-item">
                         <a className="nav-link" href="/">Portfolio</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="/">Contacts</a>
-                    </li>
+                    </li> */}
                     
                 </ul>
                 

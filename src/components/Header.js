@@ -15,7 +15,7 @@ const Header = () => {
             loop
             
             />
-            <a href="/" className="btn-main-offer">Contact Me</a>
+            {/* <a href="/" className="btn-main-offer">Contact Me</a> */}
         </div>
 
     </div>

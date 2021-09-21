@@ -292,7 +292,7 @@ border-bottom: 0.3125 solid var(--primary-orange);
 
 .portfolio-wrapper h1 {
 
-  color: var(--primary-orange);
+  color: var(--primary-red1);
 
 }
 
@@ -405,3 +405,19 @@ border-bottom: 0.3125 solid var(--primary-orange);
       width: 30%;
     }
   }
+
+  /********************header main offer button *****************/
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+
+}
+.contacts h1{
+  color: var(--primary-red1);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+.contacts p{
+  color: var(--primary-red1);
+  font-size: 1.2rem;
+}
