@@ -22,17 +22,18 @@ const Services = () => {
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
 
                             <h3>Data Entry</h3>
-                            <p>Do you need a reliable and professional virtual assistant for Data Entry, Web Research or List Building Projects using MS Excel? Then you are at the right place!<br/>
-                            ●     Offline/Online Data Entry Jobs<br/>
+                            <p>
+                            ●     Offline/Online Data Entry.<br/>
                             
 
-●     Web Research Jobs<br/>
+●     Web Research Jobs.<br/>
 
-●     Data Collection<br/>
+●     Data Collection.<br/>
 
-●     Excel data entry<br/>
+●     Excel data entry.<br/>
 
-●     Typing tasks<br/>
+●  Google sheets data entry.<br/>
+●     Typing tasks.<br/>
                             
                             
                             
@@ -46,13 +47,7 @@ const Services = () => {
 
                             <h3>Web Development</h3>
                             <p>
-                            I can build Full-Stack as well and frontend development for you. I'll use VS code for developing your application.
-
-I develop apps with latest technology including Html, CSS, Bootstrap, React js, and Nodejs.
-
-Free feel to message.
-
-Provide the requirements and get quality work in due time. </p>
+                            I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you! </p>
                         </div>
                     </div>
                     {/* - */}
@@ -63,7 +58,7 @@ Provide the requirements and get quality work in due time. </p>
                             <h3>Shopify</h3>
                             <p>  I will create a totally new custom website for you. I will send you some questions to collect your requirements like your preferred color scheme, layout, features etc. 
 
-And i will create a new website for you accordingly. </p>.
+And i will create a new website for you accordingly. </p>
                         </div>
                     </div>
                 </div>
